@@ -9,7 +9,7 @@ import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 import "@openzeppelin/contracts/utils/cryptography/MerkleProof.sol";
 
 import "./Auction.sol";
-import "./ERC721.sol";
+import "./ERC/ERC721.sol";
 
 contract Nft is ERC721, Auction, ReentrancyGuard{
     using Strings for uint256;
